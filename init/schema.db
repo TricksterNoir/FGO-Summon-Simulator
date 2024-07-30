@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS 'servants'(
+    id TEXT PRIMARY KEY,
+    name TEXT NOT NULL,
+    rarity INTEGER NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS 'player'(
+    id TEXT PRIMARY KEY,
+    num_sums  INTEGER,
+    ten_pulls   INTEGER
+);
+
+CREATE TABLE IF NOT EXISTS 'ce'(
+    id TEXT PRIMARY KEY,
+    name TEXT NOT NULL,
+    rarity INTEGER NOT NULL
+);
